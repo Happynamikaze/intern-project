@@ -11,7 +11,7 @@ function Navbar() {
 					<img src={site_logo} alt="" />
 				</div>
 				<div className='login-btn-set'>
-					<a href="#">
+					<a href="">
 
 					<div className='blue-bg-btn'>	
 						<p>Login</p>
