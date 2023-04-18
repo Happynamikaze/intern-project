@@ -7,7 +7,7 @@ import wave_2 from "../../assets/wave-2.svg"
 function Wave() {
 	return(
 <>
-		<div className="main-div gap-top">
+		<div className="main-div gap-top-little">
 			<img src={wave_2} alt="" class="wave-2"/>
 			<img src={wave_1} alt="" class="wave-1"/>
 		</div>

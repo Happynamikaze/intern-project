@@ -4,28 +4,28 @@ import "../../index.css";
 import drop_map from "../../assets/location.svg";
 import ship from "../../assets/ship.svg";
 import calender from "../../assets/calendar.svg";
-import arrow from "../../assets/arrow.svg";
-function Search(props) {
+import pen from "../../assets/pen.svg";
+function Searchn(props) {
 	return (
 		<>
 			<div className="container search-bg gap-top">
 				<div className="row one-line-center">
 					<div className="col-md-3">
-					<a href="#" className="one-line-set">
+					<a href="#" className="one-line-setn">
 						<img src={drop_map} alt="" className="search-img-size-set" />
-						<h6>Origin, Port, City</h6>
+						<h6>Delhi, 110003</h6>
 						</a>
 
 					</div>
 					<div className="col-md-3 ">
-						<a href="#" className="one-line-set">
+						<a href="#" className="one-line-setn">
 							<img src={drop_map} alt="" className="search-img-size-set" />
 
-							<h6>Destination, Port, City</h6>
+							<h6>Shanghai 200080</h6>
 						</a>
 					</div>
 					<div className="col-md-3">
-						<a href="#" className="one-line-set">
+						<a href="#" className="one-line-setn">
 						<p className="line"></p>
 							<img src={calender} alt="" className="search-img-size-set" />
 
@@ -33,17 +33,17 @@ function Search(props) {
 						</a>
 					</div>
 					<div className="col-md-2">
-						<a href="#" className="one-line-set">
+						<a href="#" className="one-line-setn">
 						<p className="line"></p>
 							<img src={ship} alt="" className="search-img-size-set" />
 
-							<h6>Load</h6>
+							<h6>114.21KG - AIR</h6>
 						</a>
 					</div>
 					<div className="col-md-1">
-						<a href="#" className="one-line-set">
+						<a href="#" className="one-line-setn pen">
 						<p className="line"></p>
-					<img src={arrow} alt=""className="arrow-set" />
+					<img src={pen} alt=""className="pen-set" />
 						</a>
 					</div>
 					
@@ -52,4 +52,4 @@ function Search(props) {
 		</>
 	);
 }
-export default Search;
+export default Searchn;
